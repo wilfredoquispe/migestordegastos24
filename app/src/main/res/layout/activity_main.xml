@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@mipmap/descarga"
+       />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="30dp"
+          android:src="@drawable/descarga1" />
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="50dp"
+          android:layout_marginRight="40dp"
+          android:layout_marginLeft="40dp">
+
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/scott2"
+             android:layout_gravity="center"
+             android:layout_marginRight="8dp"/>
+
+
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="usuario"
+             android:textSize="20sp"
+             android:backgroundTint="@color/white"
+             android:textColorHint="@color/white" />
+
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="50dp"
+          android:layout_marginRight="40dp"
+          android:layout_marginLeft="40dp">
+
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:src="@drawable/scott3"
+             android:layout_gravity="center"
+             android:layout_marginRight="8dp"/>
+
+
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="contraeña"
+             android:textSize="20sp"
+             android:backgroundTint="@color/white"
+             android:textColorHint="@color/white" />
+
+
+      </LinearLayout>
+
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="60dp"
+          android:text="INICIAR SESION"
+          android:textColor="@color/black"
+          android:textSize="20sp"
+          android:layout_marginTop="40dp"
+          android:layout_marginRight="80dp"
+          android:layout_marginLeft="80dp"
+          />
+
+      <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="250dp"
+          android:hint="sino tienes cuenta   REGISTRATE AQUí"
+          android:gravity="center"
+          android:textColorHint="@color/white"
+          android:layout_marginRight="20dp"
+          android:layout_marginLeft="20dp"
+          android:textSize="15sp" />
+
+
+   </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
